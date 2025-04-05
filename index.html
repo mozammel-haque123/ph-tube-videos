@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="https://image.shutterstock.com/image-vector/initial-letter-pt-modern-linked-260nw-450311275.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>ph-tube</title>
+</head>
+<body>
+    <!--  -->
+    <nav class="max-w-11/12 mx-auto flex justify-between items-center py-2">
+        <!-- img -->
+        <div><img class="w-[150px]" src="assets/logo.png" alt=""></div>
+        <!-- input -->
+        <div><label class="input">
+            <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></g></svg>
+            <input id="search-text" type="search" required placeholder="Search"/>
+          </label></div>
+          <!-- button -->
+        <div><button class="btn btn-error">Blog</button></div>
+    </nav>
+
+    <!-- tada button -->
+  <section id="tada-button" class="flex justify-center items-center gap-5 mt-10">
+  </section>
+
+<!-- video data -->
+
+<section id="video-data" class="max-11/12  max-sm:grid-cols-1 max-md:grid-cols-2 grid grid-cols-4 justify-center items-center gap-2 mt-10">
+
+</section>
+
+<!-- modal data -->
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <div id="modal-data">
+
+    </div>
+    <div class="modal-action">
+      <form method="dialog">
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+    <script src="index.js"></script>
+</body>
+</html>
